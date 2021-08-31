@@ -5,10 +5,9 @@ import CopyrightNotice from "./components/CopyrightNotice";
 function App(): JSX.Element {
   return (
     <>
-      <AppHeader title={"My Attendance Tracker app"} />
+      <AppHeader title={"My A"} />
       <AttendanceTracker />
       <CopyrightNotice
-        author={"Jimminy Cricket"}
         year={new Date().getFullYear()}
       />
     </>
